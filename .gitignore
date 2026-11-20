@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# Data and generated artefacts
+data/*.csv
+models/saved_models/*
+results/metrics/*
+results/graphs/*
+results/reports/*
+!models/saved_models/.gitkeep
+!results/metrics/.gitkeep
+!results/graphs/.gitkeep
+!results/reports/.gitkeep
